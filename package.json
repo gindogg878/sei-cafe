@@ -25,7 +25,9 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "dev": "concurrently \"nodemon server.js\" \"npm start\"",
-    "seed": "node config/seed.js"
+    "seed": "node config/seed.js",
+    "prod-build": "npm i && npm run build",
+    "prod-start": "node server.js"
   },
   "eslintConfig": {
     "extends": [
